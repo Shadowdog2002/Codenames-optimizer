@@ -5,8 +5,8 @@ A small project that chooses the best single-word hint for the board game Codena
 Files
 - [Spymaster.ipynb](Spymaster.ipynb) — main pipeline and functions (OCR, embedding, scoring, candidate selection).
 - [Operative.ipynb](Operative.ipynb) — helper/operative-side utilities.
-- [words_100k.txt](words_100k.txt) — source vocabulary used for hint candidates. (https://gist.github.com/h3xx/1976236)
-- [vocab_embeddings.pkl](vocab_embeddings.pkl) — precomputed embeddings for the vocab (can be re-created with [`save_vocab_embeddings`](Spymaster.ipynb)).
+- [google-10000-english-usa.txt](google-10000-english-usa.txt) — source vocabulary used for hint candidates. ([https://gist.github.com/h3xx/1976236](https://github.com/first20hours/google-10000-english?tab=readme-ov-file))
+- [google_word_embeddings.pkl](google_word_embeddings.pkl) — precomputed embeddings for the vocab (can be re-created with [`save_vocab_embeddings`](Spymaster.ipynb)).
 - [requirements.txt](requirements.txt) — Python dependencies.
 - sc_*.png — example board screenshots (e.g. [sc_9.png](sc_9.png)).
 
